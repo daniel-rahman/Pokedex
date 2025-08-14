@@ -1,0 +1,23 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* הסגנונות הבסיסיים של גוף הדף */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* פונט Inter עבור עקביות */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f4f6; /* רקע אפור בהיר */
+}
+
+/* הגדרות קוד בסיסיות */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* רכיבי Tailwind CSS נטענים אוטומטית דרך ה-script ב-App.tsx */
+/* Custom styles can be added here if needed, but prefer Tailwind classes */
+
